@@ -10,14 +10,20 @@ Kullanıcı Yönetimi: Kullanıcı bilgilerini veritabanından çekme, güncelle
 Veri Yönetimi: Kart ve kullanıcı bilgilerinin yönetimi için gerekli CRUD (Create, Read, Update, Delete) operasyonlarını gerçekleştirir.
 JSON Formatı: API, verileri JSON formatında döndürür ve gönderir, bu da veri paylaşımını standart ve kolay hale getirir.
 Teknolojiler
+
 .NET Core / .NET 6
 Entity Framework Core: Veritabanı işlemleri için kullanılmıştır.
 SQL Server: Veritabanı yönetim sistemi olarak kullanılmıştır.
 Swagger: API dokümantasyonu için entegre edilmiştir.
 Kurulum
+
+
 Bu projeyi yerel makinenize klonlayın:
 git clone https://github.com//RagnarLorthbro/KenkartOtomasyonuApi.git
+
+
 Kullanım
+
 Swagger arayüzünü kullanarak API uç noktalarını inceleyebilir ve test edebilirsiniz. API, aşağıdaki uç noktaları sunar:
 
 /api/users - Kullanıcı bilgilerini listeler
